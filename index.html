@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ministry Projects</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 7%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      vertical-align: top;
+      padding: 38px 38px;
+    }
+
+    /* First column */
+    td.number {
+      width: 24%;
+      font-size: 48px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Second column */
+    td.ministry {
+      width: 29%;
+      font-size: 31px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    /* Third column */
+    td.project {
+      width: 47%;
+      font-size: 31px;
+      line-height: 1.55;
+      color: #354d91;
+      font-weight: 400;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      td {
+        padding: 20px;
+      }
+
+      td.number {
+        font-size: 28px;
+      }
+
+      td.ministry,
+      td.project {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="table-container">
+    <table>
+      <tr>
+        <td class="number">
+          107
+        </td>
+
+        <td class="ministry">
+          Ministry of<br>
+          Consumer<br>
+          Affairs, Food<br>
+          &amp; Public<br>
+          Distribution
+        </td>
+
+        <td class="project">
+          AI-powered<br>
+          Intelligent<br>
+          Assistant for<br>
+          Indian Standards<br>
+          and BIS Services<br>
+          for Industries and<br>
+          Consumers
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
